@@ -1,8 +1,12 @@
 package controller;
 
 public class SerieControle {
+	
+	public SerieControle() {
+		super();
+	}
 
-	public static double Serie(int N) {
+	public double Serie(int N) {
 		//Condição de parada-> Quando N é 1, pois a série começa com o valor 1/1 e o denominador aumenta a cada passo
 		if (N<2)
 		{
